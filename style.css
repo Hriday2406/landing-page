@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color: #1F2937;
+    padding: 8px 220px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+.header-links {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+.link-text{
+    font-size: 18px;
+    color: #E5E7EB;
+    /* font-weight: 300; */
+    text-decoration: none;
+}
+
+/* --------------------------------------------- */
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 100px;
+    padding-bottom: 150px;
+}
+.container-1 {
+    display: flex;
+    gap: 10px;
+}
+.left-box {
+    height: 225px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.hero-main{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+    margin: 0;
+}
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+    margin-bottom: 10px;
+    padding-right: 40px;
+}
+.right-box {
+    height: 225px;
+    width: 500px;
+    background-color: #6D747D;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 7px;
+    padding: 0.5em 2em;
+    border: 0px;
+}
+
+.sign-up:active {
+    background-color: #2658a9;
+}
+
+/* --------------------------------------------- */
+.section-2 {
+    text-align: center;
+    padding-top: 20px;
+}
+.info-text {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+.info-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex: 1;
+    margin-bottom: 100px;
+}
+.info-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 160px;
+}
+.box-img {
+    height: 160px;
+    width: 160px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+.box-text {
+    font-size: 16px;
+    font-weight: 300;
+    color: #1F2937;
+}
+/* --------------------------------------------- */
+
+.section-3 {
+    background-color: #E5E7EB;
+}
+
+/* --------------------------------------------- */
+
+footer {
+    background-color: #1F2937;
+}
