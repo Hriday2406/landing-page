@@ -6,9 +6,9 @@ body {
 }
 header {
     background-color: #1F2937;
-    padding: 8px 220px;
+    padding: 8px 450px;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
 }
 .logo-text {
@@ -72,7 +72,6 @@ header {
     justify-content: center;
     align-items: center;
 }
-
 .sign-up {
     background-color: #3882F6;
     color: #F9FAF8;
@@ -82,7 +81,6 @@ header {
     padding: 0.5em 2em;
     border: 0px;
 }
-
 .sign-up:active {
     background-color: #2658a9;
 }
@@ -108,27 +106,90 @@ header {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 160px;
+    width: 166px;
 }
 .box-img {
     height: 160px;
     width: 160px;
-    border: 3px solid #3882F6;
+    border: 4px solid #3882F6;
     border-radius: 10px;
 }
 .box-text {
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 300;
+    padding-left: 1px;
     color: #1F2937;
 }
 /* --------------------------------------------- */
 
 .section-3 {
     background-color: #E5E7EB;
+    padding: 100px 525px 100px 585px;
 }
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+.quote-name {
+    width: max-content;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: 35px;
+    margin-top: 0;
+}
+
+/* --------------------------------------------- */
+
+.section-4 {
+    padding: 150px 450px;
+}
+.action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    padding: 50px 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-1 {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+}
+.text-2 {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 0;
+}
+.action-btn {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #E5E7EB;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 0.5em 2em;
+}
+.action-btn:active {
+    background-color: #2658a9;
+    box-shadow: 2px 2px 5px #1F2937;
+}
+
 
 /* --------------------------------------------- */
 
 footer {
     background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
